@@ -39,7 +39,38 @@ El patron comportamental que podemos usar es el patron Strategy, el cual nos sir
 ![alt text](docs/images/DiagramaCasoUsoRF-03.png)
 
 ## 5.
+### 5.1 Requerimiento Funcional 1
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | RF-02 |
+| **Nombre del requerimiento** | Inscripcion de participantes |
+| **Descripción** | *El sistema debe debe poder inscribir participantes de manera manual (Inscripcion por el usuario).* |
+| **Precondiciones** | *Para que el sistema cumpla con este requerimiento, EventSync debe poder confirmar que el correo ingresado por el usuario sea de valido para el sistema* |
+| **Actor** | *(Profesores y estudiantes)* |
+| **Flujo principal** | 1. El actor ingresa los datos para la inscripcion.<br>2. El sistema debe validar que los datos que ingreso el usuario<br>3. El sistema debe confirmar la inscripcion o denegacion de esta al usuario. |
+| **Diagrama de caso de uso** | *![alt text](docs/images/DiagramaCasoUsoRF-02.png)*|
+| **Poscondiciones** | *Se espera como resultado un mensaje de confirmacion o denegacion de la inscripcion* |
+
+
+### 5.2 Requerimiento Funcional 2
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | RF-03 |
+| **Nombre del requerimiento** | Creacion de eventos |
+| **Descripción** | *El sistema debe permitir crear un evento sin saltarse las condiciones especificas.* |
+| **Precondiciones** | *Para que el sistema cumpla con este requerimiento, EventSync debe poder validar la informacion proporcianada por el creador del evento y junto a esto validar la disponibilidad de este mismo* |
+| **Actor** | *(Profesores y administrativos)* |
+| **Flujo principal** | 1. El actor debe ingresar los requisitos para crear un evento<br>2. El sistema debe validar estos datos y verificar disponibilidad<br>3. El sistema debe confirmar la creacion, eliminacion o modificacion del evento. |
+| **Diagrama de caso de uso** | ![alt text](docs/images/DiagramaCasoUsoRF-03.png)*|
+| **Poscondiciones** | *Se espera como resultado que el usuario pueda validar si el evento quedo creado de manera correcta* |
+
 ## 6.
+
+
 ## 7.
+
+
 ## 8.
 
