@@ -14,13 +14,13 @@ El patron comportamental que podemos usar es el patron Strategy, el cual nos sir
 ## 3. Analisis de requerimientos
 
 - Requerimientos funcionales (RF)
-    1. El sistema debe perimitir la creacion de un evento aislado 
-    2. 
-    3. 
+    1. El sistema debe poder enviar notificaciones siempre que ocurra algo con los eventos registrados.
+    2. El sistema debe poder inscribir participantes de manera manual (Inscripcion por el usuario).
+    3. El sistema debe permitir crear un evento sin saltarse las condiciones especificas.
 
 - Requerimientos no funcionales (RNF)
-    1. 
-    2. 
+    1. El sistema debe mantener los colores y logo de la universidad. 
+    2. El sistema debe ser responsive y manejar la tipografia de la universidad.
 
 ## 4.
 ## 5.
