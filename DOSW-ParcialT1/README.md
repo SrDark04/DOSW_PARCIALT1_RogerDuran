@@ -9,7 +9,7 @@ Los patrones los cuales se pueden implementar para dar una solución a este prob
 
 El patron creacional el cual usamos es el factory-method el cual usaremos para la distribucion de distintos canales de desarrollo de eventos, esto dependiento el tipo de evento el cual se este trabajando y como lo estamos haciento apra cada uno de estos mismos.
 
-El patron comportamental que podemos usar es el patron Strategy, el cual nos sirve para optimizar tiempo de ejecucion segun la mejor estrategia a implementar para el tipo de evento al cual se esta haciendo referencia. Incluso otro patron que podemos aplicar es el de cadena de responsabilidad el cual funciona y es perfecto para la delegacion de responsabilidad hacia los directivos en el encabezado de hackaton.
+El patron comportamental que podemos usar es el patron Strategy, el cual nos sirve para optimizar tiempo de ejecucion segun la mejor estrategia a implementar para la notificacion que sea necesaria para el tipo de evento al cual se esta haciendo referencia. Incluso otro patron que podemos aplicar es el de cadena de responsabilidad el cual funciona y es perfecto para la delegacion de responsabilidad hacia los directivos en el encabezado de hackaton.
 
 ## 3. Analisis de requerimientos
 
@@ -83,8 +83,8 @@ El patron comportamental que podemos usar es el patron Strategy, el cual nos sir
 3. Permitir la inscripcion si los requisitos son correctos.
 4. Mostrar un mensaje de validacion o negacion de inscripcion.
 
-## 7.
+## 7. Diagrama de clases:
 
 
-## 8.
+## 8. Implementación:
 
