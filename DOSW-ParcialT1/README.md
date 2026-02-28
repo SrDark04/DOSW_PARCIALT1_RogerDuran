@@ -66,8 +66,22 @@ El patron comportamental que podemos usar es el patron Strategy, el cual nos sir
 | **Diagrama de caso de uso** | ![alt text](docs/images/DiagramaCasoUsoRF-03.png)*|
 | **Poscondiciones** | *Se espera como resultado que el usuario pueda validar si el evento quedo creado de manera correcta* |
 
-## 6.
+## 6. Descomposicion de tareas asociadas requerimiento RF-02
 
+### Epica:
+
+**_Inscripcion de participante en un evento_**
+
+### Historia de Usuairo:
+1. _**Como**_ estudiante **_Quiero_** poder inscribirme en un evento **_para_** participar y generar conocimiento a traves de las actividades de este.
+
+2. **_Como_** profesor **_Quiero_** poder inscribir a mis estudiantes o inscribirme en un evento **_Para_** participar generando conocimiento a mis alumnos. 
+
+### Tareas:
+1. Ingreso de datos para la inscripcion.
+2. Validacion de identidad segun el correo.
+3. Permitir la inscripcion si los requisitos son correctos.
+4. Mostrar un mensaje de validacion o negacion de inscripcion.
 
 ## 7.
 
