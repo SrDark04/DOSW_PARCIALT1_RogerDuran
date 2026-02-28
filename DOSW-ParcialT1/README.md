@@ -14,15 +14,30 @@ El patron comportamental que podemos usar es el patron Strategy, el cual nos sir
 ## 3. Analisis de requerimientos
 
 - Requerimientos funcionales (RF)
-    1. El sistema debe poder enviar notificaciones siempre que ocurra algo con los eventos registrados.
-    2. El sistema debe poder inscribir participantes de manera manual (Inscripcion por el usuario).
-    3. El sistema debe permitir crear un evento sin saltarse las condiciones especificas.
+    1. RF-01: El sistema debe poder enviar notificaciones siempre que ocurra algo con los eventos registrados.
+    2. RF-02: El sistema debe poder inscribir participantes de manera manual (Inscripcion por el usuario).
+    3. RF-03: El sistema debe permitir crear un evento sin saltarse las condiciones especificas.
 
 - Requerimientos no funcionales (RNF)
     1. El sistema debe mantener los colores y logo de la universidad. 
     2. El sistema debe ser responsive y manejar la tipografia de la universidad.
 
-## 4.
+## 4. Diagrama de casos de uso e historias de usuario
+
+- RF-02:
+    1. _**Como**_ estudiante **_Quiero_** poder inscribirme en un evento **_para_** participar y generar conocimiento a traves de las actividades de este.
+
+    2. **_Como_** profesor **_Quiero_** poder inscribir a mis estudiantes o inscribirme en un evento **_Para_** participar generando conocimiento a mis alumnos. 
+
+![alt text](docs/images/DiagramaCasoUsoRF-02.png)
+
+- RF-03: 
+    1. **_Como_** administrativo **_Quiero_** crear eventos **_Para_** aumentar las actividades y generar aprovaciones dentro de estas mismas al no cumplirse _"x"_ capacidad o requisitos.
+
+    2. **_Como_** Profesor **_Quiero_** crear eventos **_Para_** hacer participar a mis estudiantes de estos y generar o reforzar el conocimiento mediante estos mismo.
+
+![alt text](docs/images/DiagramaCasoUsoRF-03.png)
+
 ## 5.
 ## 6.
 ## 7.
